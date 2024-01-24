@@ -1,3 +1,5 @@
+package adr_week_1
+
 import kotlin.math.sqrt
 
 //1. Giải phương trình bặc 1 & 2
@@ -87,7 +89,7 @@ fun solve3(n: Int){
 }
 
 fun factorial(f: Int): Int {
-    if (f == 0) {5
+    if (f == 0) {
         return 1
     } else {
         return f * factorial(f - 1)
