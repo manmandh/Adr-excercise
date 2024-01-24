@@ -1,3 +1,5 @@
+package adr_week_1
+
 fun main(args: Array<String>) {
     print("input a:")
     var a = readLine()?.toDoubleOrNull()
